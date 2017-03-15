@@ -1,0 +1,54 @@
+
+
+body {
+	background-color: #aab9ee;
+	font-family: Helvetica;
+	text-color: black;
+}
+
+#me {
+	width: 90%;
+	border-radius: 100px;
+}
+
+#aboutMe {
+	background-image: url("http://i.imgur.com/Tv6gPzG.png");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom-style: dashed;
+	border-bottom-color: #aab9ee;
+	border-bottom-width: 2px;
+	
+}
+
+#portfolio {
+	background-image: url("http://i.imgur.com/UVNkP0X.png");
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom-style: dashed;
+	border-bottom-color: #aab9ee;
+	border-bottom-width: 2px;
+}
+
+#cPlusPlus {
+	width: 80%;
+}
+
+#ali {
+	width: 90%;
+}
+
+#fbSTEM {
+	width: 100%;
+}
+
+#igSTEM {
+	width: 90%;
+}
+
+#contactMe {
+	background-image:url("http://i.imgur.com/RtufBd0.png");
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+

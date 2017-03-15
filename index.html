@@ -1,0 +1,139 @@
+<html>
+	<head>
+  		<link rel="stylesheet" type="text/css" href="style.css">
+  		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+<html>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+				<a class="navbar-brand" href="#top">iAm(not)SoSure</a>
+			</div>
+			<a href="#top"></a>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#aboutMe">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Links <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://www.freecodecamp.com/iamnotsosure" target="_blank">FCC Profile</a></li>
+							<li><a href="https://github.com/iamnotsosure" target=" _blank">Github</a></li>
+							<li><a href="https://twitter.com/iamnotsosure" target="_blank">Twitter</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#contactMe">Contact me</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<br>
+	<div id="aboutMe" class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>Hey! The name's John. I'm a programmer, musician, and photographer with all the creative drive needed to produce the next best thing. While I've devoted the earlier portion of my life to the film and music, I'm currently gearing my focus on becoming a great programmer by learning web development through a community-powered bootcamp at the Flatiron School and Free Code Camp. Here's a quote I came across recently that helps me keep on truckin':</h3>
+				<br>
+				<div class="row">
+					<h4 class="col-md-6 col-md-offset-3"><em>I learned this, at least, by my experiment: that if one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.</em>
+						<br><br><p style="text-indent: 20px;">- Henry David Thoreau</p>
+					</h4>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img id="me" src="images/me.jpg">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- End of About Me / Start of Portfolio -->
+
+	<div id="portfolio" class="container">
+		<h2 class="text-center">Portfolio</h2>
+		<br>
+		<div class="row">
+			<div class="col-xs-6">
+				<a href="https://drive.google.com/folderview?id=0B-t0XGQ1CC-tUVNneGpkb193YTQ&usp=sharing" alt="My C++ Projects" target="_blank">
+					<img id="cPlusPlus" src="images/cPlusPlus.png"></a>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="col-xs-6">
+				<a href="https://codepen.io/iamnotsosure/full/zBvGzd/" alt="Muhammad Ali Tribute Page" target="_blank">
+					<img id="ali" src="images/ali.png">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<a href="https://www.facebook.com/HCCCEngineeringScience" target="_blank" alt="HCCC STEM Club FB page">
+					<img id="fbSTEM" src="images/hcccFB.png">
+				</a>
+			</div>
+			<div class="col-xs-6">
+				<a href="https://www.instagram.com/hccc_stem" target="_blank" alt="HCCC Instagram">
+					<img id="igSTEM" src="images/hcccIG.png">
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- End of Portfolio / Start of Contact Me form -->
+
+	<div id="contactMe" class="container">
+		<h3 class="text-center">Contact Me</h3>
+		<br><hr><br>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-1"></div>
+			<div class="col-md-1">
+				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<label for="name">Your name:</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="email">Your email:</label><br />
+						<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="message">Comment:</label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+					</div>
+					<input id="submit_button" type="submit" value="Send" />
+				</form>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-1"></div>
+			<div class="col-md-1"></div>
+			<div class="col-md-5">
+				<h3>Would you like to find out more about me? Be it for more info about myself or my work, to ask for my resume, talk about photography, or even my opinion on anything that's on your mind, or to simply chat! Feel free to fill out this form and I'll get back to you very soon :)</h3>
+			</div>
+		</div>
+	</div><!--container /div> -->
+	
+
+</body>
+
+</html>
